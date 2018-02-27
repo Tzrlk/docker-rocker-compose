@@ -10,7 +10,7 @@ RUN apk upgrade --update \
 
 SHELL [ "/bin/bash", "-c" ]
 
-ARG ROCKER_VERSION=0.1.3
+ARG ROCKER_VERSION=0.1.6
 ARG DL_ROOT=https://github.com/grammarly/rocker-compose/releases/download
 ARG DL_FILE=rocker-compose-${ROCKER_VERSION}_darwin_amd64.tar.gz
 
